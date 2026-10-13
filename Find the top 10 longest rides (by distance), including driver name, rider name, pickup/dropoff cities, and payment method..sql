@@ -1,3 +1,5 @@
+--Find the top 10 longest rides (by distance), including driver name, rider name, pickup/dropoff cities, and payment method.
+
 SELECT 
     d.name AS driver_name,
     ri.name AS rider_name,
