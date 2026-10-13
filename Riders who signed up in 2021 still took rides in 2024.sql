@@ -1,3 +1,5 @@
+--How many riders who signed up in 2021 still took rides in 2024?
+
 SELECT 
     COUNT(DISTINCT r.rider_id) AS active_2021_riders_in_2024
 FROM riders_cleaned r
