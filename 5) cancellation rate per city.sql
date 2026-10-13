@@ -1,3 +1,5 @@
+-- Calculate the cancellation rate per city and identify which city had the highest cancellation rate?
+
 WITH city_cancellation AS (
     SELECT
         pickup_city AS city,
