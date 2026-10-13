@@ -1,3 +1,5 @@
+-- For each driver, calculate their average monthly rides since signup. Who are the top 5 drivers with the highest consistency (most rides per active month)?
+
 WITH driver_activity AS (
     SELECT
         r.driver_id,
