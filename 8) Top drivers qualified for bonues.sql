@@ -1,3 +1,5 @@
+-- Management wants to know the top 10 drivers that are qualified to receive bonuses using the criteria below; o at least 30 rides completed, o an average rating ≥ 4.5, and o a cancellation rate under 5%.
+
 SELECT 
     d.driver_id,
     d.name AS driver_name,
