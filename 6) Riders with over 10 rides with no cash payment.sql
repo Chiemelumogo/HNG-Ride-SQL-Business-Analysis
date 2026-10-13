@@ -1,3 +1,5 @@
+-- Identify riders who have taken more than 10 rides but never paid with cash.
+
 WITH rider_ride_counts AS (
     SELECT
         rider_id,
