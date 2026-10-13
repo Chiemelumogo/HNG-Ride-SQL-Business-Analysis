@@ -1,3 +1,5 @@
+--Find the top 3 drivers in each city by total revenue earned between June 2021 and Dec 2024. If a driver has multiple cities, count revenue where they picked up passengers in that city.
+
 WITH city_revenue AS (
     SELECT
         r.pickup_city AS city,
