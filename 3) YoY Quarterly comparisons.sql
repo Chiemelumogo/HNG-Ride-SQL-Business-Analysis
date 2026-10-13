@@ -1,3 +1,5 @@
+-- Compare quarterly revenue between 2021, 2022, 2023, and 2024. Which quarter had the biggest YoY growth?
+
 WITH quarterly_revenue AS (
     SELECT
         EXTRACT(YEAR FROM paid_date) AS year,
